@@ -13,6 +13,7 @@ class TrainingMenuScreen extends Component {
                         onPress={() => this.props.navigation.goBack()}
                         style={styles.backButtonContainer}
                     >
+                    <Text>Click here to go back</Text>
                     </TouchableOpacity>
                     <Text style={styles.header}>Training Menu</Text>
                 </View>
